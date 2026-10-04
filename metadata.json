@@ -1,0 +1,8 @@
+{
+  "name": "Annie Wu - Personal Portfolio",
+  "description": "A modern, graphical portfolio for Annie Wu featuring projects in science, engineering, social research, and a comprehensive fine art portfolio. Highly interactive with custom detail views for research and creative works.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Annie Wu | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'earthy-sage': '#A3B18A',
+              'earthy-clay': '#7D4F20',
+              'earthy-cream': '#FAEDCD',
+              'earthy-olive': '#2D3025',
+              'earthy-sand': '#5C5446',
+            }
+          }
+        }
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'DM Sans', sans-serif;
+        background-color: #FDFCF8;
+      }
+      h1, h2, h3, .font-serif {
+        font-family: 'Fraunces', serif;
+      }
+      /* Earthy palette with high contrast for accessibility */
+      .bg-earthy-sage { background-color: #A3B18A; }
+      .bg-earthy-clay { background-color: #7D4F20; }
+      .bg-earthy-cream { background-color: #FAEDCD; }
+      .bg-earthy-olive { background-color: #2D3025; } /* Deep dark olive */
+      .bg-earthy-sand { background-color: #5C5446; } /* Darker taupe for better visibility */
+      
+      .text-earthy-olive { color: #2D3025; }
+      .text-earthy-sand { color: #5C5446; }
+      .text-earthy-clay { color: #7D4F20; }
+
+      /* Precise overrides for leadership section icons visibility on click/active */
+      .leadership-icon-container {
+        background-color: rgba(163, 177, 138, 0.15) !important;
+        transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1) !important;
+      }
+      .leadership-icon {
+        color: #7D4F20 !important;
+        transition: color 0.3s ease !important;
+      }
+
+      /* When the parent container row is hovered, touched, or active */
+      .group:hover .leadership-icon-container,
+      .group:active .leadership-icon-container,
+      .group:focus-within .leadership-icon-container {
+        background-color: #2D3025 !important;
+      }
+      .group:hover .leadership-icon,
+      .group:active .leadership-icon,
+      .group:focus-within .leadership-icon {
+        color: #FAEDCD !important;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
