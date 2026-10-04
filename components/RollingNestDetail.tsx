@@ -51,7 +51,7 @@ export const RollingNestDetail: React.FC<RollingNestDetailProps> = ({ onBack }) 
               <div className="relative max-w-md md:max-w-sm lg:max-w-md w-full mx-auto">
                 <div className="aspect-[4/5] rounded-[3rem] overflow-hidden shadow-2xl border border-earthy-olive/10 group">
                   <img 
-                    src="https://i.ibb.co/Q3YPHQ70/campervan-reference.jpg" 
+                    src="https://i.ibb.co/xKfsmP0S/image.png" 
                     alt="The Rolling Nest Camper Van" 
                     className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
                     referrerPolicy="no-referrer"

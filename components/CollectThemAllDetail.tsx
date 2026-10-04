@@ -246,7 +246,7 @@ export const CollectThemAllDetail: React.FC<CollectThemAllDetailProps> = ({ onBa
               <div className="relative max-w-md md:max-w-sm lg:max-w-md w-full mx-auto">
                 <div className="aspect-[4/5] rounded-[3rem] overflow-hidden shadow-2xl border border-earthy-olive/10 group bg-earthy-cream">
                   <img 
-                    src="https://i.ibb.co/6c7HTBD1/fbe50aa90ea19dbca01ff674f33bc29a.jpg" 
+                    src="https://i.ibb.co/GQZH8FW8/1c62bf2f3264b201b63670d9d986e810.jpg" 
                     alt="Handcrafted Sculpture Art Installation" 
                     className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
                     referrerPolicy="no-referrer"

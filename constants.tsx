@@ -81,14 +81,14 @@ export const HOBBIES: Hobby[] = [
     name: 'The Rolling Nest',
     description: 'A custom camper van build project engineered as an off-grid mobile basecamp for climbing road trips and outdoor expeditions.',
     icon: 'Truck',
-    image: 'https://i.ibb.co/Q3YPHQ70/campervan-reference.jpg'
+    image: 'https://i.ibb.co/xKfsmP0S/image.png'
   },
   {
     id: 'collect-them-all',
     name: 'Collect them all!',
     description: 'A sculpture series project of making diverse ceramic skulls and secretly placing them across different corners of campus.',
     icon: 'Skull',
-    image: 'https://i.ibb.co/NgWmRx6C/7d0cba9624d42c28751e76ee3f6d266d.jpg'
+    image: 'https://i.ibb.co/GQZH8FW8/1c62bf2f3264b201b63670d9d986e810.jpg'
   },
   {
     id: 'hiking',
